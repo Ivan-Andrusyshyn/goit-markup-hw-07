@@ -1,0 +1,75 @@
+.footer-form {
+    margin-top: 12px;
+}
+
+.lable-footer {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: calc(16.41 / 14);
+    color: #ffffff;
+}
+
+.input-footer-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-input {
+    cursor: pointer;
+    transition: border-color 250ms var(--transition-cubic);
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.3);
+    outline: none;
+    width: 358px;
+    height: 50px;
+    display: block;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    &::placeholder {
+        font-size: 16px;
+        font-style: 400;
+        line-height: calc(20 / 16);
+    }
+
+    &:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+
+    &:focus,
+    &:hover {
+        border-color: var(--color-blue);
+    }
+}
+
+.farm-footer-btn {
+    border: none;
+    outline: none;
+    display: block;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--color-white);
+    fill: var(--color-white);
+    background-color: var(--color-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+
+    &:hover,
+    &:focus {
+        background-color: var(--color-herobtn);
+    }
+}
+
+.farm-footer-svg {
+    display: block;
+}

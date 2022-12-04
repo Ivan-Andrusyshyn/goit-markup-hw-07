@@ -1,0 +1,119 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 93px;
+}
+
+.logo,
+.logo-footer {
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-black);
+}
+
+.logo span {
+    color: var(--color-blue);
+}
+
+.footer {
+    color: #ffffff;
+}
+
+.header-links {
+    display: flex;
+    gap: 50px;
+}
+
+.link {
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    color: var(--color-black);
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-property: color;
+    transition-timing-function: var(--transition-cubic);
+    &::after {
+        content: "";
+        display: block;
+        background-color: var(--color-blue);
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        bottom: -32px;
+        border-radius: 2px;
+        opacity: 0;
+    }
+}
+.header-link {
+    position: relative;
+}
+
+.cursor:hover,
+.cursor:focus {
+    color: var(--color-blue);
+}
+
+.current::after {
+    opacity: 1;
+}
+
+.header-item {
+    fill: currentColor;
+}
+
+.mail {
+    width: 16px;
+    height: 12px
+}
+
+.phone {
+    width: 10px;
+    height: 16px
+}
+.current {
+    color: var(--color-blue);
+}
+
+.header-contacts {
+    display: flex;
+    color: var(--color-gray);
+    gap: 50px;
+
+}
+
+.mail-link,
+.phone-link {
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    text-decoration: none;
+    color: var(--color-gray);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-property: color;
+    transition-timing-function: var(--transition-cubic);
+}

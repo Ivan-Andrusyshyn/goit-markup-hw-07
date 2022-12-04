@@ -1,0 +1,129 @@
+.title-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.benefits-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.benefits {
+    display: flex;
+    gap: 30px;
+}
+
+.titles-benefits {
+    letter-spacing: 0.03em;
+
+}
+
+.benefit-icon {
+    border-radius: 4px;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit-antena::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/antenna\ 1\ \(1\).svg);
+}
+
+.benefit-clock::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/clock\ 1\ \(1\).svg);
+}
+
+.benefit-diagram::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/diagram\ 1\ \(1\).svg);
+}
+
+.benefit-astronaut::before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/astronaut\ 1\ \(1\).svg);
+}
+
+.title-benefit {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: calc(16/14);
+}
+
+.subtitle-benefit {
+    width: 270px;
+    font-size: 14px;
+    color: var(--color-gray);
+    line-height: 1.71;
+}
+
+/*<------TASKS------>*/
+
+.task {
+    padding-bottom: 94px;
+
+}
+
+.task-title {
+    color: var(--color-black);
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.task-items {
+    width: calc(100% - 60px / 3);
+    display: flex;
+    gap: 30px;
+}
+
+.task-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-uptitle {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: calc(16.4 / 14);
+    letter-spacing: 0.03em;
+    width: 100%;
+    height: 70px;
+    background-color: #2F303ACC;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
