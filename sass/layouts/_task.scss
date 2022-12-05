@@ -12,20 +12,20 @@
     text-align: center;
 }
 
-&__list {
+.task__list {
     width: calc(100% - 60px / 3);
     display: flex;
     gap: 30px;
 }
 
-&__wrapper {
+.task__wrapper {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-&__uptitle {
+.task__uptitle {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;

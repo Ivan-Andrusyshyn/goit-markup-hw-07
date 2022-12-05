@@ -3,18 +3,18 @@
     padding-bottom: 25px;
 }
 
-.header-container {
+.header_container {
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-.header-nav {
+.header__nav {
     display: flex;
     align-items: center;
 }
 
-.logo {
+.logo_nav {
     margin-right: 93px;
 }
 
@@ -28,7 +28,7 @@
     color: var(--color-black);
 }
 
-.logo span {
+.logo_blue {
     color: var(--color-blue);
 }
 
@@ -36,7 +36,7 @@
     color: #ffffff;
 }
 
-.header-links {
+.header__list {
     display: flex;
     gap: 50px;
 }
@@ -63,7 +63,7 @@
         opacity: 0;
     }
 }
-.header-link {
+.header_item {
     position: relative;
 }
 
@@ -93,7 +93,7 @@
     color: var(--color-blue);
 }
 
-.header-contacts {
+.contacts {
     display: flex;
     color: var(--color-gray);
     gap: 50px;

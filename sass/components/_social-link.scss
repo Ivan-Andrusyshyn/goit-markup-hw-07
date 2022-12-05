@@ -1,11 +1,11 @@
-.social-links {
+.social-list {
     gap: 10px;
     display: flex;
     justify-content: center;
 
 }
 
-.social-list {
+.social_item {
     width: 44px;
     height: 44px;
     background-color: #ffffff;
@@ -33,9 +33,7 @@
         }
 }
 
-
-
-.social-link-item {
+.social-link_item {
     fill: #AFB1B8;
     transition-duration: 250ms;
     transition-delay: 0;
