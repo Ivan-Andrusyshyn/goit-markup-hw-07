@@ -1,3 +1,20 @@
+.social-links {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.social-list {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .social-link {
     width: 100%;
     height: 100%;
@@ -10,12 +27,13 @@
     transition-delay: 0;
     transition-property: background-color;
     transition-timing-function: var(--transition-cubic);
-
     &:hover,
     &:focus {
-        background-color: #2196F3;
-    }
+            background-color: #2196F3;
+        }
 }
+
+
 
 .social-link-item {
     fill: #AFB1B8;
@@ -23,8 +41,7 @@
     transition-delay: 0;
     transition-property: fill;
     transition-timing-function: var(--transition-cubic);
-
-    .social-link:hover & {
+.social-link:hover & {
         fill: #ffffff;
     }
 
@@ -39,3 +56,4 @@
         fill: #ffffff;
     }
 }
+

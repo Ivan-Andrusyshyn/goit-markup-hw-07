@@ -20,26 +20,8 @@
     letter-spacing: 0.03em;
 }
 
-.social-links {
-    gap: 10px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.social-list {
-    width: 44px;
-    height: 44px;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-.team-items {
-    display: flex;
+.team-items  
+    {  display: flex;
     gap: 30px;
     color: var(--color-black);
     font-size: 16px;

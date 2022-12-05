@@ -3,7 +3,7 @@
 
 }
 
-.task-title {
+.title__h2 {
     color: var(--color-black);
     font-size: 36px;
     line-height: 1.16;
@@ -12,20 +12,20 @@
     text-align: center;
 }
 
-.task-items {
+&__list {
     width: calc(100% - 60px / 3);
     display: flex;
     gap: 30px;
 }
 
-.task-wrapper {
+&__wrapper {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.task-uptitle {
+&__uptitle {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
