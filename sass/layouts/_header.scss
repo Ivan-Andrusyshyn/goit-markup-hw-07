@@ -36,12 +36,12 @@
     color: #ffffff;
 }
 
-.header__list {
+.menu {
     display: flex;
     gap: 50px;
 }
 
-.link {
+.menu__item_link {
     letter-spacing: 0.02em;
     font-size: 14px;
     font-weight: 500;
@@ -63,7 +63,7 @@
         opacity: 0;
     }
 }
-.header_item {
+.menu__item {
     position: relative;
 }
 
@@ -100,8 +100,8 @@
 
 }
 
-.mail-link,
-.phone-link {
+.contacts__link_phone,
+.contacts__link_mail {
     letter-spacing: 0.02em;
     font-size: 14px;
     font-weight: 500;
