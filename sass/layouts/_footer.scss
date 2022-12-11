@@ -1,40 +1,79 @@
 .footer-contacts {
+       width: 100%;
     padding-bottom: 60px;
     padding-top: 60px;
     letter-spacing: 0.03em;
     background-color: var(--color-dark);
+    @media screen and (min-width:1200px) {
+        padding-bottom: 94px;
+            padding-top: 94px;
+    }
 }
 
 address {
-    width: 231px;
+    width: 100%;
     display: block;
     font-style: normal;
+    @media screen and (min-width:1200px) {
+           width: 231px;
+        }
 }
 
 .footer-wraper {
-    display: flex;
+    // display: flex;
+    // justify-content: center;
+    display: block;
+    @media screen and (min-width:1200px) {
+           display: flex;
+        }
 }
-
-.address-wrapper {
-    margin-right: 70px;
-
+.address-social__wraper {
+@media screen and (min-width:768px) {
+    display: flex;
+        gap: 165px;
+        margin-left: 76px;
+}
+    @media screen and (min-width:1200px) {
+    display: flex;
+    gap: 0;
+    margin-left: 0;
+}
+}
+.address-wrapper {   
+margin-bottom: 60px;
+@media screen and (min-width:1200px) {
+       margin-right: 70px; 
+    }
 }
 
 .logo-footer {
-    display: block;
+    display: flex;
+    justify-content: center;
     margin-bottom: 20px;
     color: var(--color-white);
+// @media screen and (min-width:768px) {
+//         display: block;
+//     }
+    @media screen and (min-width:1200px) {
+           display: block;
+        }
 }
-
 .logo-footer span {
     color: var(--color-blue);
 }
 
 .footer-item {
     width: 100%;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+// @media screen and (min-width:768px) {
+//         display: block;
+//     }
+    @media screen and (min-width:1200px) {
+            display: block;
+        }
 }
-
 .footer-items {
     font-size: 14px;
     line-height: 1.71;
@@ -47,7 +86,6 @@ address {
     transition-timing-function: var(--transition-cubic);
     color: var(--color-white);
 }
-
 .footer-mail {
     transition-duration: 250ms;
     transition-delay: 0;
@@ -55,7 +93,6 @@ address {
     transition-timing-function: var(--transition-cubic);
     color: var(--color-grayfooter);
 }
-
 .footer-phone {
     transition-duration: 250ms;
     transition-delay: 0;
@@ -65,8 +102,11 @@ address {
 }
 
 .social-div {
+    margin-bottom: 60px;
+    @media screen and (min-width:1200px) {
     margin-top: 12px;
     margin-right: 93px;
+        }
 }
 
 .social-uptitle {
@@ -76,6 +116,12 @@ address {
     color: #ffffff;
     line-height: calc(16.41/14);
     margin-bottom: 20px;
+display: flex;
+    justify-content: center;
+
+    @media screen and (min-width:1200px) {
+        display: block;
+    }
 }
 
 .footer-link {
@@ -95,9 +141,6 @@ address {
     background-color: #2196F3;
 }
 }
-
-
-
 .social-footer {
     gap: 10px;
     display: flex;

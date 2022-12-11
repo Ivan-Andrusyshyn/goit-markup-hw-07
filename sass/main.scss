@@ -1,6 +1,7 @@
 @import './bases/resets';
 @import './utils/variables';
 @import './bases/body';
+@import './utils/mixins.scss';
 
 @import './components/modal';
 @import './components/filters';
