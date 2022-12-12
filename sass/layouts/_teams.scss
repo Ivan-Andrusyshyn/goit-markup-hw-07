@@ -4,7 +4,7 @@
    padding: 60 0 ;
     // padding-top: 94px;
     // padding-bottom: 94px;
-@media screen and (min-width:1200px) {
+@include desktop {
     padding: 94px 0;
 }
 }
@@ -18,10 +18,10 @@ border-radius: 0px 0px 4px 4px;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ffffff;
-    @media screen and (min-width:768px) {
+@include tablet {
           max-width: 354px;
         }
-          @media screen and (min-width:1200px) {
+    @include desktop{
               max-width: 270px;
           }
 }
@@ -33,7 +33,7 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 30px;
     text-align: center;
 
-    @media screen and (min-width:1200px) {
+ @include desktop {
         font-size: 36px;
         line-height: 1.16;
         margin-bottom: 50px;
@@ -46,21 +46,21 @@ border-radius: 0px 0px 4px 4px;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-@media screen and (min-width:768px) {
+@include tablet {
     display: flex;
     flex-wrap: wrap;
     gap:30px;
     }
-@media screen and (min-width:1200px) {
+@include desktop {
     display: flex;
     gap:30px;   
 } }
  .team__list_item:not(:last-child) {
     margin-bottom: 30px;
-@media screen and (min-width:768px) {
+@include tablet {
         margin-bottom: 0;
     }
-  @media screen and (min-width:1200px) {
+ @include desktop {
      margin-bottom: 0;
   }
  }
@@ -79,7 +79,7 @@ border-radius: 0px 0px 4px 4px;
        
     }
 
-@media screen and (min-width:1200px) {
+@include desktop {
     max-height: 428px;
     margin-bottom: 0;
 }

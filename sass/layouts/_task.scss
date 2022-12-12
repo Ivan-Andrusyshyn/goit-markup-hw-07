@@ -4,7 +4,7 @@
     @media screen and (min-width:300px) {
         display: none;
     }
-         @media screen and (min-width:1200px) {
+        @include desktop {
              display: block;
          }
 }
@@ -17,7 +17,7 @@
 margin-bottom: 30px;
     text-align: center;
 
-    @media screen and (min-width:1200px) {
+  @include desktop{
      font-size: 36px;
     line-height: 1.16;
     margin-bottom: 50px;

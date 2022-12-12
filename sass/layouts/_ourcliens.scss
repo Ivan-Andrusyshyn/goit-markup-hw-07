@@ -7,10 +7,10 @@
             max-width: 480px;
         }
     
-      @media screen and (min-width:768px) {
+  @include tablet{
            max-width: 768px;
         }
-        @media screen and (min-width:1200px) {
+    @include desktop {
             max-width: 1200px;
             padding-top: 94px;
             padding-bottom: 94px;
@@ -22,10 +22,10 @@
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
-@media screen and (min-width:768px) {
+@include tablet{
         max-width: 768px;
     }
-    @media screen and (min-width:1200px) {
+@include desktop {
     max-width: 1200px   
         
     }
@@ -34,10 +34,10 @@
 .client-item {
     width: 210px;
     min-height: 92px;
-    @media screen and (min-width:768px) {
+@include tablet {
     width: 226px;
     }
- @media screen and (min-width:1200px) {
+@include desktop{
          width: 170px;
      }
 }

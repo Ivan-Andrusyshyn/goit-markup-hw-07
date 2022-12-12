@@ -3,11 +3,18 @@
 }
 
 .portfolio {
+padding: 60px 0 40px 0;
+@include tablet {
+    padding: 60px 0 30px 0;
+}
+@include desktop{
     padding-top: 94px;
     padding-bottom: 94px;
 }
+}
 
 .filter {
+    flex-wrap: wrap;
     display: flex;
     font-size: 16px;
     line-height: 1.62;
@@ -16,7 +23,10 @@
     color: var(--color-black);
     margin-bottom: 50px;
     gap: 8px;
+@include tablet {
     justify-content: center;
+}
+    
 }
 
 .filter-btn {

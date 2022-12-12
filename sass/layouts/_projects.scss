@@ -34,8 +34,14 @@
 }
 
 .project-item img {
-    width: 100%;
+    width: 450px;
+    height: 294px;
+@include tablet {
+    width: 354px;
 }
+@include desktop {
+    width: 370px;
+}}
 
 .description-wrapper {
     position: relative;
